@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Stories</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stories.html">Short Stories</a></li>
+                <li><a href="essays.html">Essays</a></li>
+                <li><a href="editing.html">Editing Services</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Short Stories</h1>
+            <div id="story-form">
+                <h2>Add a New Story</h2>
+                <input type="text" id="story-title" placeholder="Story Title">
+                <textarea id="story-content" placeholder="Write your story here..."></textarea>
+                <button onclick="addStory()">Publish Story</button>
+            </div>
+            <div id="stories-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Sci-Fi Author. All rights reserved.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
